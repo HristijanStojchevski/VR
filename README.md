@@ -6,6 +6,6 @@
   
   I created the virtual environment with a simple scene, one cube object with a rigid body in order to test the gravity and possible user interaction.
   
-  I set up a game object with a camera positioned in the height of an average person, then gave the player a character controller that is mocking a human movement. Here I also inclded a script and a mesh on the Main Camera(the eyes) who emit rays(invisible particles) and allow objects to be detected in the user reach that later can be interacted with.
+  I set up a game object with a camera positioned in the height of an average person, then gave the player a character controller that is mocking a human movement. Here I also included a script and a mesh on the Main Camera(the eyes) who emit rays(invisible particles) and allow objects to be detected in the user reach that later can be interacted with.
   
   I wrote a script on the Player object, which detects when the user head tilts down more than 25 degrees. That triggers the user moving forward in the direction he sees.
