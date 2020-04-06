@@ -10,4 +10,4 @@
   
   I wrote a script on the Player object, which detects when the user head tilts down more than 25 degrees. That triggers the user moving forward in the direction he sees.
 
-References: - [Setup and head movement tutorial](https://www.youtube.com/watch?v=EAaoEe9ksyE)
+References: - [Head movement tutorial](https://www.youtube.com/watch?v=kBTn2pGwZUk) , [Setup and interaction tutorial](https://www.youtube.com/watch?v=EAaoEe9ksyE)
