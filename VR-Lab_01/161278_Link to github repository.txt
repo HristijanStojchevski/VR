@@ -1,0 +1,4 @@
+https://github.com/HristijanStojchevski/VR
+
+Vo ova REPO ke gi prikachuvam site laboratoriski vezbi vkluchuvajki go izvorniot kod i izvrshnata verzija vo niv.
+Vo README ke se potrudam uredno da obrazlozam shto imam napraveno vo sekoja od laboratoriskite vezbi.
