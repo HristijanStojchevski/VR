@@ -1,8 +1,9 @@
 Android
 PlayerPath?
-C:/Users/Public/Documents/Unity Projects/VR-Lab_01/Lab01_161278.apk
+C:/Users/Public/Documents/Unity Projects/VR/VR-Lab_01/Lab02_161278.apk
 SceneListBegin?
-Assets/InitialScene.unity
+Assets/Menu/Menu.unity
+Assets/Game Play/InitialScene.unity
 SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 047843e8fc8efc789ac0ebf61a6343c3 Assembly-CSharp.dll:GoogleVR.HelloVR.HeadsetDemoManager
@@ -19,6 +20,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EditorCameraOriginDict
+39e9c6e177a0a1be872ff29bdc8b6f0a Assembly-CSharp.dll:.MainMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -148,6 +150,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 57fde8e76fc7bce23deb0e799d336be7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
 e1d67d2e24db6bb37e9d81529959a250 Assembly-CSharp.dll:GoogleVR.Beta.Demos.DemoSeeThroughController
 cfa93710d56cd4da2a3b2eec27bc1139 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.PlanarReflection
+7d03e3709968e85802fb4dd6d8c145d8 Assembly-CSharp.dll:.PushAround
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Displace
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
@@ -202,8 +205,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+ea4d135190fd55478a98f4b366ef1819 Assembly-CSharp.dll:.QuitGame
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
+2e4a18ef5326df9cab0098101697ce3d Assembly-CSharp.dll:.Instructions
 e8a98c645cd1674338152ac68d89e960 Assembly-CSharp.dll:.GvrControllerVisual
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
@@ -220,10 +225,9 @@ ffca30e02701e376e97949c80c5c3a37 Assembly-CSharp.dll:GoogleVR.KeyboardDemo.Keybo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EmulatorClientSocket
 7d05c1a36ca8db05546065b852216990 Assembly-CSharp.dll:.GvrControllerInput
 fd2702b172bbd0dd861e9cb8e41d2f84 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRManager
-dfefb9863d84df3d6ab0ef8c7e9048e4 Assembly-CSharp.dll:.PlayerHeadTiltMovement
+fe163e4863efda0e159f69706fece13b Assembly-CSharp.dll:.PlayerHeadTiltMovement
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrXREventsSubscriber
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 c24d48a90352de3c42bed4347f59af59 Assembly-CSharp.dll:GoogleVR.Beta.GvrBetaControllerVisualMulti
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-7d03e3709968e85802fb4dd6d8c145d8 Assembly-CSharp.dll:.PushAround
