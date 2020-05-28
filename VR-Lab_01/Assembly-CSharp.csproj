@@ -51,8 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game Play\PlayerHeadTiltMovement.cs" />
-     <Compile Include="Assets\Game Play\PushAround.cs" />
+     <Compile Include="Assets\Game Play\Scipts\BallGenerator.cs" />
+     <Compile Include="Assets\Game Play\Scipts\GamePlay.cs" />
+     <Compile Include="Assets\Game Play\Scipts\HouseManagement.cs" />
+     <Compile Include="Assets\Game Play\Scipts\PlayerHeadTiltMovement.cs" />
+     <Compile Include="Assets\Game Play\Scipts\Portal.cs" />
+     <Compile Include="Assets\Game Play\Scipts\PushAround.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
@@ -177,9 +181,23 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-     <Compile Include="Assets\Instructions.cs" />
      <Compile Include="Assets\Menu\MainMenu.cs" />
-     <Compile Include="Assets\QuitGame.cs" />
+     <Compile Include="Assets\Menu\QuitGame.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudio.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioAcousticMesh.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioListener.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioMaterialMap.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioMaterialMapper.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioMaterialMapperUpdater.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioReverbProbe.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoom.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoomManager.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioSource.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\GameProgressData.cs" />
+     <Compile Include="Assets\Scripts\Instructions.cs" />
+     <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
@@ -190,12 +208,14 @@
      <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+     <None Include="Assets\Materials\3DCorrectShader.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\ResonanceAudio\Shaders\ResonanceAudioSurfaceMaterial.shader" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.39f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>

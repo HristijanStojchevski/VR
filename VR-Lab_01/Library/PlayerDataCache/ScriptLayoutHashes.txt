@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Public/Documents/Unity Projects/VR/VR-Lab_01/Lab02_161278.apk
+C:/Users/Public/Documents/Unity Projects/VR/VR-Lab_01/v1.1_161278.apk
 SceneListBegin?
 Assets/Menu/Menu.unity
 Assets/Game Play/InitialScene.unity
@@ -21,6 +21,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EditorCameraOriginDict
 39e9c6e177a0a1be872ff29bdc8b6f0a Assembly-CSharp.dll:.MainMenu
+906099d9328b033fde5962c1051b74a9 Assembly-CSharp.dll:.BallGenerator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -140,6 +141,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ActivateTrigger
+879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.Portal
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.Beta.Demos.DemoObjectController6DoF
@@ -150,7 +152,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 57fde8e76fc7bce23deb0e799d336be7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
 e1d67d2e24db6bb37e9d81529959a250 Assembly-CSharp.dll:GoogleVR.Beta.Demos.DemoSeeThroughController
 cfa93710d56cd4da2a3b2eec27bc1139 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.PlanarReflection
-7d03e3709968e85802fb4dd6d8c145d8 Assembly-CSharp.dll:.PushAround
+2544f4613ce0e5cad02f5bd18d486591 Assembly-CSharp.dll:.PushAround
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Displace
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
@@ -221,13 +223,33 @@ a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 a8b185f93b85036e13e3f553c802615a Assembly-CSharp.dll:.GvrTooltip
 ffca30e02701e376e97949c80c5c3a37 Assembly-CSharp.dll:GoogleVR.KeyboardDemo.KeyboardDelegateExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
+754860905d2e52ec4722495b0c300e29 Assembly-CSharp.dll:.GamePlay
 7f88db6deea6b4d2af344791aaa07731 Assembly-CSharp.dll:.GvrPointerInputModule
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EmulatorClientSocket
 7d05c1a36ca8db05546065b852216990 Assembly-CSharp.dll:.GvrControllerInput
 fd2702b172bbd0dd861e9cb8e41d2f84 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRManager
-fe163e4863efda0e159f69706fece13b Assembly-CSharp.dll:.PlayerHeadTiltMovement
+f3552b3284055c74148cd80880a5c1ad Assembly-CSharp.dll:.PlayerHeadTiltMovement
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrXREventsSubscriber
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 c24d48a90352de3c42bed4347f59af59 Assembly-CSharp.dll:GoogleVR.Beta.GvrBetaControllerVisualMulti
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+ec6244c43844844f6a3fc43d32fefb78 Assembly-CSharp.dll:.HouseManagement
+869e5abc2271c3b618904edff22e38ef Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionFireAndDebris
+7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ParticleSystemMultiplier
+430c1729d7a445aa5df470ced463fca9 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionPhysicsForce
+7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExtinguishableParticleSystem
+ab232dc3d94359ca42eabb9c72cbbb82 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.WaterHoseParticles
+f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.Explosive
+c9576c6a51e2e71bc5caab85a96801e8 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.SmokeParticles
+e97ff9540a49b92b779792c195839d33 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.AfterburnerPhysicsForce
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.FireLight
+3b945a83fa61133bbb7c61d4d7012fd9 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.Hose
+a1fd1a1252d0ae3b01a09f36ac637233 Assembly-CSharp.dll:.AudioManager
+851793e9360494c7ecb100f146124c4b Assembly-CSharp.dll:.ResonanceAudioListener
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ResonanceAudioMaterialMapperUpdater
+03bbed44bf0809da9eb453e702673301 Assembly-CSharp.dll:.ResonanceAudioRoom
+32075fb1b73bdbb94bb0778f3d37fc99 Assembly-CSharp.dll:.ResonanceAudioMaterialMapper
+20047c5790d43d728763c3724202fd3d Assembly-CSharp.dll:.ResonanceAudioReverbProbe
+abe1be06e5b95139bf6d39dbd1f08ea1 Assembly-CSharp.dll:.ResonanceAudioMaterialMap
+fbffad711b4ac3afd2411b76972a8e11 Assembly-CSharp.dll:.ResonanceAudioSource

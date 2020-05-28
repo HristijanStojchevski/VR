@@ -24,6 +24,37 @@ public class MainMenu : MonoBehaviour {
 		mainMenu = GameObject.Find("PlaySlider");
 		instructions = GameObject.Find("InstSlider");
 		quit = GameObject.Find("QuitSlider");
+		if(PlayerPrefsX.GetBool("Pause")){
+			float timeLeft = PlayerPrefs.GetFloat("timeLeft");
+			float sec = timeLeft % 60;
+			string minutes = ((int) timeLeft / 60).ToString();
+			string seconds = sec.ToString("00");
+			string message = "You still have " + minutes + "m" + seconds + "s.";
+			if(PlayerPrefsX.GetBool("checkNeeded")){
+				message += " You now have delivered " + PlayerPrefs.GetString("score")  + " balls";
+			}
+			else message += "You delivered all balls.";
+			GameObject.Find("InfoText").GetComponent<Text>().text = message;
+			GameObject.Find("PlayButton").transform.GetChild(0).GetComponent<Text>().text = "CONTINUE";
+			GameObject.Find("InfoText").GetComponent<Text>().enabled = true;
+		}
+		else if(PlayerPrefsX.GetBool("GameOver")){
+			// GameObject.Find("InfoText").GetComponent<Text>().text = "You failed, better luck next time.";
+			GameObject.Find("InfoText").GetComponent<Text>().enabled = true;
+			GameObject.Find("PlayButton").transform.GetChild(0).GetComponent<Text>().text = "TRY AGAIN";
+			PlayerPrefsX.SetBool("GameOver",false);
+			PlayerPrefs.DeleteAll();
+		}
+		else if(PlayerPrefsX.GetBool("win")){
+			GameObject.Find("InfoText").GetComponent<Text>().text = "Well done, you are safe now.";
+			GameObject.Find("InfoText").GetComponent<Text>().enabled = true;
+			GameObject.Find("PlayButton").transform.GetChild(0).GetComponent<Text>().text = "GO AGAIN";
+			PlayerPrefsX.SetBool("win",false);
+			PlayerPrefs.DeleteAll();
+		}
+		else{
+			PlayerPrefs.DeleteAll();
+		}
 	}
 	void Update(){
 		if(gvrStatus){

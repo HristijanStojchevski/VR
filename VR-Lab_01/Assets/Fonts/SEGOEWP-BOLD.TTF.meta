@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c4f52eb6a8e3cbf4a9052d8ea963e963
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Segoe WP
+  fontNames:
+  - Segoe WP
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 68b4d4e64d8f4d641803effda3c331a9, type: 3}
+  - {fileID: 12800000, guid: 27d00b3d81979b044a321d1d640596f3, type: 3}
+  - {fileID: 12800000, guid: bcbd812fbcfbd3547bc457b7141a95ce, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
