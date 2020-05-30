@@ -1,5 +1,6 @@
 # VR
  All laboratory work for the course Virtual Reality. I will be working in Unity(v. 2017.4.*).
+ The mini game/VR experience is located in a valley surrounded by mountains. The player needs to generate some balls and push them to different locations in the scene. Once all the balls are succesfully delivered he can enter a house and "win" before the time flies by. 
  I did all the coding myself and when I got stuck somewhere not nowing how all the objects, materials, sounds are build inside classes and their own methods I used the [Unity docs](https://docs.unity3d.com/ScriptReference/index.html), everything is really well documented and there is a big comunity on all the forums.  
  For those that don't want to buy expensive headsets, you can get yourself [google cardboard](https://arvr.google.com/cardboard/get-cardboard/) or [build your own from home](https://www.youtube.com/watch?v=EHkOnsvpHiA).
 
@@ -19,16 +20,26 @@ References: - [Head movement tutorial](https://www.youtube.com/watch?v=kBTn2pGwZ
 ## LAB 02
  I created another 3D scene for a menu. Inside the scene I replicated what I did in the first laboratory, so the player can look around and interact with head movements. I added buttons for entering the game, reading instrucions and exiting the game. The player activates a click on the button when is focusing on it for a couple of seconds. The feedback that the button is being pressed is done with a slider, so as the click "loads" the button background(slider) is filling with a darker toned color. I made that work with some lines of code that you can find in [MainMenu.cs](https://github.com/HristijanStojchevski/VR/blob/master/VR-Lab_01/Assets/Menu/MainMenu.cs).
  
+ The start menu, pause menu and Game Over menu are all using the same scene. In the other laboratories I will dynamically change the scene information text, title and options depending on the situation the player is or has been.
+ 
+ The player can pause the game with looking to the sky for 5sec. The pause menu is triggered through code similar as the movement is done. Game over will show up once the time for reaching the goal will pass. 
+ 
 References: - [Creating Menu in Unity, Canvas tricks and tips.](https://www.youtube.com/watch?v=zc8ac_qUXQY)
 
 ## LAB 03
-
-References: - [Creating Menu in Unity, Canvas tricks and tips](https://www.youtube.com/watch?v=zc8ac_qUXQY).
+ In these laboratory I added some extra objects in the scene. A ball generator and a portal. Then, after playing around with a couple of ideas, firsty I changed the way to interact with the ball to be with gazing/focusing on it. Now once the player reaches the distance needed for the reticle pointer to interact with the balls mesh renderer I am adding force on the ball so it could travel forward in the direction the player is looking( camera rotation). The force is raising with the time the player is focused on the ball, this helps the player discover different tehniques to overcome different situations and uneven terain. Check out this interesting [ball interaction](https://github.com/HristijanStojchevski/VR/blob/master/VR-Lab_01/Assets/Game%20Play/Scipts/PushAround.cs).
+ 
+ Then, I added a "ball generator" that the player needs to approach so an option, activated with focus, that generates a ball will pop up( the button flashes a couple of times then stopes so the player could know that he succesfully generated a ball). When the first ball is generated a portal shows up on a random location where the player needs to deliver a ball. This ball generation is done with using a prefab that has the PushAround script and all properties so that every ball that gets generated is interactable. (every ball is generated on a random location so the player would need to search for it). The portal has a task to wait for a ball to activate his trigger then destroy that ball and move to a different location. This is the portal [script](https://github.com/HristijanStojchevski/VR/blob/master/VR-Lab_01/Assets/Game%20Play/Scipts/Portal.cs).
+ 
+ Creating a prefab - Just move already build object to the assets area and a prefab will be saved. You can always do changes to the prefab and the material you are using for it.
+ 
+References: - [Using triggers and colliders](https://www.youtube.com/watch?v=WFkbqdo2OI4&t=53s).
 
 ## LAB 04
+ Adding audio
 
 References: - [Making your own audio manager class](https://www.youtube.com/watch?v=6OT43pvUyfY) , [Add 3D audio](https://www.youtube.com/watch?v=M88jDVfu6-Q).
 
 ## LAB 05
-
+ Setting up timer and points
 References: - [Creating Menu in Unity, Canvas tricks and tips.](https://www.youtube.com/watch?v=zc8ac_qUXQY)
