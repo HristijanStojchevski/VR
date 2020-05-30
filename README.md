@@ -1,8 +1,11 @@
 # VIRTUAL REALITY
  All laboratory work for the course Virtual Reality on the Faculty of Computer Science and Engineering - Skopje.
+ 
  I will be working in Unity(v. 2017.4.*).
+ 
  The mini game/VR experience is located in a valley surrounded by mountains. The player needs to generate some balls and push them to different locations in the scene. Once all the balls are succesfully delivered he can enter a house and "win" before the time flies by. 
- I did all the coding myself and when I got stuck somewhere not nowing how all the objects, materials, sounds are build inside classes and their own methods I used the [Unity docs](https://docs.unity3d.com/ScriptReference/index.html), everything is really well documented and there is a big comunity on all the forums.  
+ I did all the coding myself and when I got stuck somewhere not nowing how all the objects, materials, sounds are build inside classes and their own methods I used the [Unity docs](https://docs.unity3d.com/ScriptReference/index.html), everything is really well documented and there is a big comunity on all the forums.
+ 
  For those that don't want to buy expensive headsets, you can get yourself [google cardboard](https://arvr.google.com/cardboard/get-cardboard/) or [build your own from home](https://www.youtube.com/watch?v=EHkOnsvpHiA).
 
 ## LAB 01 
