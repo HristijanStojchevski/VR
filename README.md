@@ -23,11 +23,11 @@ References: - [Creating Menu in Unity, Canvas tricks and tips.](https://www.yout
 
 ## LAB 03
 
-References: - [Creating Menu in Unity, Canvas tricks and tips.](https://www.youtube.com/watch?v=zc8ac_qUXQY)
+References: - [Creating Menu in Unity, Canvas tricks and tips](https://www.youtube.com/watch?v=zc8ac_qUXQY).
 
 ## LAB 04
 
-References: - [Making your own audio manager class.](https://www.youtube.com/watch?v=6OT43pvUyfY) , [Add 3D audio.](https://www.youtube.com/watch?v=M88jDVfu6-Q)
+References: - [Making your own audio manager class](https://www.youtube.com/watch?v=6OT43pvUyfY) , [Add 3D audio](https://www.youtube.com/watch?v=M88jDVfu6-Q).
 
 ## LAB 05
 
